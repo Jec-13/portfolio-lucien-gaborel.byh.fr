@@ -1,6 +1,10 @@
 
 #blue-bg {
-    background-color: #3c5092;
+    background-color: #414C78;
+}
+
+#blue-txt {
+    background-color: #414C78;
 }
 
 #light-blue-bg {
@@ -12,4 +16,5 @@
     height: 100%;
     object-fit: cover;
 }
+
 
