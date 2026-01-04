@@ -16,3 +16,62 @@
     height: 100%;
     object-fit: cover;
 }
+
+/* Pour mettre le texte du caroursel sous les images */
+@media (max-width: 767.98px) {
+  .carousel-caption.custom-caption {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #f8f9fa;
+    padding: 15px;
+    background: #414C78;
+  }
+}
+
+/* L'arrière-plan sombre qui couvre tout l'écran */
+.video-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8); /* Fond noir transparent */
+    transition: opacity 500ms;
+    visibility: hidden; /* Caché par défaut */
+    opacity: 0;
+    z-index: 9999; /* Par-dessus tout le reste */
+}
+
+/* Pop-up pour la page interet.html */
+.video-overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.video-popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.close-popup {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.close-popup:hover {
+    color: #ccc;
+}
