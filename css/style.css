@@ -1,19 +1,42 @@
 
 .blue-bg {
-    background-color: #414C78;
+    background-color: #1b4a75;
 }
 
-.blue-txt {
-    color: #414C78;
+.white-bg {
+    background-color: #e4dfda;
 }
 
 .light-blue-bg {
-    background-color: #b1bfee;
+    background-color: #3f8092;
+}
+
+.blue-txt {
+    color: #011D4D;
+}
+
+.white-txt {
+    color: #e4dfda;
+}
+
+.dark-txt{
+    color: #634037;
+}
+
+.link {
+    text-decoration: none;
+    color:#011D4D;
 }
 
 .im-cover {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+}
+
+.im-comp {
+    width: 75%;
+    height: 75%;
     object-fit: cover;
 }
 
@@ -33,15 +56,11 @@
 /* L'arrière-plan sombre qui couvre tout l'écran */
 .video-overlay {
     position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.8); /* Fond noir transparent */
+    background: rgba(0, 0, 0, 0.8);
     transition: opacity 500ms;
-    visibility: hidden; /* Caché par défaut */
+    visibility: hidden;
     opacity: 0;
-    z-index: 9999; /* Par-dessus tout le reste */
+    z-index: 9999;
 }
 
 /* Pop-up pour la page interet.html */
