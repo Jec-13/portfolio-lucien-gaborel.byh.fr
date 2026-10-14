@@ -1,0 +1,37 @@
+# Nmap 7.94SVN scan initiated Wed Oct 14 04:52:23 2026 as: nmap -O -vv -oN nmap1.txt -p 80,443,21-23,25 10.10.42.176
+Nmap scan report for 10.10.42.176
+Host is up, received arp-response (0.0020s latency).
+Scanned at 2026-10-14 04:52:37 EDT for 1s
+
+PORT    STATE  SERVICE REASON
+21/tcp  open   ftp     syn-ack ttl 64
+22/tcp  open   ssh     syn-ack ttl 64
+23/tcp  closed telnet  reset ttl 64
+25/tcp  closed smtp    reset ttl 64
+80/tcp  open   http    syn-ack ttl 64
+443/tcp closed https   reset ttl 64
+MAC Address: 38:06:B4:41:08:6F (A.D.C. GmbH)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=10/14%OT=21%CT=23%CU=31047%PV=Y%DS=1%DC=D%G=Y%M=380
+OS:6B4%TM=6ACF42D6%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=107%TI=Z%CI=I
+OS:%II=I%TS=8)OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4ST11
+OS:NW7%O5=M5B4ST11NW7%O6=M5B4ST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=71
+OS:20%W6=7120)ECN(R=Y%DF=Y%T=40%W=7210%O=M5B4NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=4
+OS:0%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O
+OS:=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40
+OS:%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q
+OS:=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y
+OS:%DFI=N%T=40%CD=S)
+
+Uptime guess: 113.068 days (since Tue Jun 23 03:14:25 2026)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Read data files from: /usr/bin/../share/nmap
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct 14 04:52:38 2026 -- 1 IP address (1 host up) scanned in 14.53 seconds
