@@ -37,7 +37,7 @@
  - [x] étape 9 : grâce john the riper et un dictionnaire de mot de passe on crack les mot de passesdes utilisateur de la machine : ok
  - [x] étape 10 : on se connecte avec un identifiant/mdp de l'admin réseau
  - [x] étape 11 : on change le mot de passe de l'admin et de root 
- - [x] étape 12 : comme on sait que l'entreprise auquel appartient le serveur possède le nom de domaine vcacti on regarde dans les fichiers de configuration apache
+ - [x] étape 12 : comme on sait que l'entreprise auquel appartient le serveur possède le nom de domaine vcacti on regarde dans les fichiers de configuration apache : Manque sur site entre Etape 16 et 17
    + [x] étape 12.1 : on regarde le fichier 000_default.conf
    + [x] étape 12.2 : on regarde le dossier pointer
  - [x] étape 13 : après avoir vu où était le site on change notre résolution de nom local pour l'adress du la machine cible.
